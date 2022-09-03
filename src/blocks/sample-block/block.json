@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "wp-block-starter/sample-block",
+  "version": "0.1.0",
+  "title": "Sample block",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "Example block scaffolded with Create Block tool.",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "backgroundColor": {
+      "type": "string",
+      "default": "transparent"
+    },
+    "color": {
+      "type": "string",
+      "default": "black"
+    }
+  },
+  "textdomain": "sample-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
